@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Kortfabriken</title>
+</head>
+
+<body>
+    <div class = "wrapper">
+        <header><h1>Kortfabriken</h1></header>
+
+        <div id = "cardSelector">
+            <h2>Bakgrundsfärg</h2>
+            <input type="color" id="colorPicker" value="#6373FF">
+            <h2>Text</h2>
+            <textarea id="cardText"></textarea>
+            <h2>Bild</h2>
+            <select id = "cardPic">
+                <option value="bebis.png">Bebis</option>
+                <option value="gris.png">Gris</option>
+                <option value="hjärta.png">Hjärta</option>
+                <option value="myra.gif">Myra</option>
+                <option value="paket.png">Paket</option>
+                <option value="sol.jpg">Sol</option>
+                <option value="träd.png">Träd</option>
+                <option value="äpple.png">Äpple</option>
+            </select>
+            <button id = "generateCard">Generera Kort</button>
+        </div>
+
+        <div id = "generatedCard">
+            
+        </div>
+    </div>
+</body>
+<script src ="scripts/script.js" text = "javascript"></script>
+
+</html>

@@ -1,0 +1,106 @@
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #BFBFBF;
+    width: 45vw;
+    height: 45vh;
+    border: 0.175vw solid black;
+}
+
+header {
+    border-bottom: 0.175vw solid black;
+    height: 20%;
+    font-size: 1.5vw;
+    overflow: hidden;
+}
+
+h1 {
+    line-height: 8vh;
+    position: relative;
+    font-weight: bold;
+    left: 13vw;
+}
+
+#cardSelector {
+    height: 80%;
+    border-right: 0.175vw solid black;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    position: absolute;
+    left: 5.75%;
+    width: 27.5%;
+}
+
+h2 {
+    margin-top: 1vh;
+    text-align: left;
+    position: relative;
+    left: 0;
+    font-size: 1vw;
+}
+
+input[type = "color"] {
+    width: 75%;
+    height: 2.75vh;
+    background: none;
+}
+
+textarea {
+    width: calc(75% - 0.35vw);
+    border: 0.175vw solid black;
+    height: 7.5vh;
+    resize: none;
+    font-size: 1vw;
+}
+
+select {
+    width: 75%;
+    border: 0.175vw solid black;
+    font-size: 1vw;
+}
+
+button {
+    background-color: darkgrey;
+    width: 75%;
+    font-size: 0.75vw;
+    padding: 0.25vw;
+    border: 0.175vw solid black;
+    margin-top: 3vh;
+}
+
+#generatedCard {
+    position: absolute;
+    right: 10vw;
+    border: 0.175vw solid black;
+    top: 13.5vh;
+    width: 27.5%;
+    background-color: #6373FF;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: none;
+    margin: none;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    font-size: 1vw;
+    text-align: center;
+}
+
+
+img {
+    width: 7.5vw;
+    height: 7.5vw;
+}
